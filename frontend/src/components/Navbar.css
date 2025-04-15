@@ -1,0 +1,83 @@
+/* ✅ Full-width fixed navbar wrapper */
+.navbar-wrapper {
+    width: 100%;
+    position: relative;
+    top: 0;
+    background-color: #004d40;
+    z-index: 999;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* ✅ Inner navbar container */
+  .navbar {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+  }
+  
+  /* ✅ Logo styling */
+  .logo {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* ✅ Navigation links layout */
+  .nav-links {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+  }
+  
+  /* ✅ Navigation link styles */
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #c8e6c9;
+  }
+  
+  /* ✅ Hamburger toggle button (mobile only) */
+  .menu-toggle {
+    display: none;
+    font-size: 2rem;
+    color: white;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* ✅ Mobile styles */
+  @media (max-width: 768px) {
+    .nav-links {
+      position: absolute;
+      top: 65px;
+      right: 20px;
+      background-color: #004d40;
+      flex-direction: column;
+      gap: 15px;
+      padding: 15px 20px;
+      border-radius: 8px;
+      display: none;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+  
+    .nav-links.open {
+      display: flex;
+    }
+  
+    .menu-toggle {
+      display: block;
+    }
+  }
+  
