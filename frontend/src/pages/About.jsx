@@ -57,12 +57,12 @@ function About() {
           <p>You can explore the full project on GitHub:</p>
           <ul>
             <li>
-              🔗 <a href="https://github.com/yourusername/aqi-prediction-backend" target="_blank" rel="noopener noreferrer">
+              🔗 <a href="https://github.com/toshankanwar/AQI-Prediction/tree/main/backend" target="_blank" rel="noopener noreferrer">
                 Backend (Flask + LSTM Model)
               </a>
             </li>
             <li>
-              🔗 <a href="https://github.com/yourusername/aqi-prediction-frontend" target="_blank" rel="noopener noreferrer">
+              🔗 <a href="https://github.com/toshankanwar/AQI-Prediction/tree/main/frontend" target="_blank" rel="noopener noreferrer">
                 Frontend (React + CSS3)
               </a>
             </li>
