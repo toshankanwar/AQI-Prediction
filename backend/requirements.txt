@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Flask
 Flask-CORS
 pandas
@@ -5,3 +6,12 @@ numpy
 tensorflow
 joblib
 scikit-learn
+=======
+Flask
+Flask-CORS
+pandas
+numpy
+tensorflow
+joblib
+scikit-learn
+>>>>>>> ea27301 (git add)
