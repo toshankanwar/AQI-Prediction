@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# AQI Prediction Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This **Air Quality Index (AQI) Prediction Web App** leverages real-world air quality data collected from 2019 to 2023 across major Indian cities to predict future AQI values using a deep learning model.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+Air quality has a significant impact on public health. This app helps citizens make informed decisions by forecasting the AQI based on historical pollution patterns. The model uses a **Long Short-Term Memory (LSTM)** neural network that captures seasonal trends and temporal dependencies in AQI data.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- Predicts city-wise AQI based on date input
+- Provides real-time AQI forecasts
+- Uses historical data from 277+ major Indian cities in India
+- Displays AQI Category and primary pollutant information
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Data
 
-### `npm test`
+- Source: [Urban Emissions Website](https://urbanemissions.info/india-air-quality/india-ncap-aqi-indian-cities-2015-2023/)
+- Dataset covers January 2019 to December 2023
+- Includes City Name, Observation Date, AQI Value, Primary Pollutant, and AQI Category
+- Data preprocessing involved handling missing values and normalizing date formats
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technology Stack
 
-### `npm run build`
+- Backend: Python Flask with LSTM model for AQI prediction
+- Frontend: React with CSS3 for UI
+- Model: LSTM deep learning model trained on time series AQI data
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Usage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Select the city from the dropdown
+2. Input the date for which you want the AQI prediction
+3. View the predicted AQI and category instantly on the interface
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Project Structure
 
-### `npm run eject`
+- `/backend` : Flask API serving the LSTM prediction model
+- `/frontend` : React application for user interface
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Explore the Code
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Backend repository: [GitHub - Flask + LSTM Model](https://github.com/toshankanwar/AQI-Prediction/tree/main/backend)
+- Frontend repository: [GitHub - React Frontend](https://github.com/toshankanwar/AQI-Prediction/tree/main/frontend)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Contact
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Feedback and collaboration inquiries welcome!  
+Email: [contact@toshankanwar.website](mailto:contact@toshankanwar.website)
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+*This tool promotes awareness about air quality and helps citizens make data-driven decisions for health and safety.*
