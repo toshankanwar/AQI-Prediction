@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 /* Global Body Styling */
 body, html {
   margin: 0;
@@ -66,72 +66,4 @@ body, html {
   list-style-type: "🌱 ";
   margin-bottom: 8px;
 }
-=======
-/* Global Body Styling */
-body, html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
 
-/* Ensure Root fills the page */
-#root {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-/* Adjust for navbar height (assumes fixed navbar) */
-.page-container {
-  flex: 1; /* Take up available space */ /* Adjust based on navbar height *//* Adjust based on footer height */
-  background-color: #f5f7fa;
-}
-
-.about-container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 0 20px;
-  color: #333;
-  flex-grow: 1; /* Ensures it takes up all available space */
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  min-height: 100%; /* Makes sure it doesn't overflow or shrink */
-}
-
-.about-title {
-  font-size: 2.5rem;
-  color: #004d40;
-  margin-bottom: 25px;
-  text-align: center;
-}
-
-.about-content {
-  background-color: #ffffff;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
-  line-height: 1.7;
-  color: #333333;
-  font-size: 1rem;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  transition: all 0.3s ease;
-  flex-grow: 1; /* Ensures content stretches properly */
-  min-height: 0; /* Reset to ensure no unnecessary constraints */
-}
-
-.about-content p {
-  margin-bottom: 15px;
-  font-size: 1.05rem;
-}
-
-.about-content ul {
-  margin-left: 20px;
-  margin-bottom: 20px;
-}
-
-.about-content ul li {
-  list-style-type: "🌱 ";
-  margin-bottom: 8px;
-}
->>>>>>> ea27301 (git add)

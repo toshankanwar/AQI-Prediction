@@ -45,7 +45,7 @@ Air quality has a significant impact on public health. This app helps citizens m
 ## Contact
 
 Feedback and collaboration inquiries welcome!  
-Email: [contact@toshankanwar.website](mailto:contact@toshankanwar.website)
+Email: [contact@toshankanwar.in](mailto:contact@toshankanwar.in)
 
 ---
 
