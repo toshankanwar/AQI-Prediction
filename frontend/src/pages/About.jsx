@@ -76,7 +76,7 @@ function About() {
             Have feedback or want to collaborate? Feel free to reach out:
           </p>
           <ul>
-            <li>📧 Email: <a href="mailto:contact@toshankanwar.website/">contact@toshankanwar.website</a></li>
+            <li>📧 Email: <a href="mailto:contact@toshankanwar.in">contact@toshankanwar.in</a></li>
           </ul>
         </div>
       </div>
